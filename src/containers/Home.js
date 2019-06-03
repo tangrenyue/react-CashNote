@@ -82,11 +82,11 @@ export class Home extends Component {
       <React.Fragment>
         <div className="App-header">
             <div className="row mb-5 justify-content-center">
-              <img src={logo} className="App-logo" alt="logo" />
+            <section className="logo">React账本</section>
             </div>
             <div className="row">
               <div className="col">
-                <MonthPicker
+                <MonthPicker 
                   year={currentDate.year}
                   month={currentDate.month}
                   onChange={this.changeDate}

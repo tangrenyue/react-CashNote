@@ -16,7 +16,6 @@ class PriceForm extends React.Component {
     errorMessage: '',
   }
   sumbitForm = (event) => {
-
     const { item, onFormSubmit } = this.props
     const editMode = !!item.id
     const price = this.priceInput.value.trim() * 1

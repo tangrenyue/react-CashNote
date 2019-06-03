@@ -51,7 +51,7 @@ class MonthPicker extends React.Component {
     return (
       <div className="dropdown month-picker-component" ref={(ref) => {this.node = ref}}>
         <p>选择月份</p>
-        <button 
+        <button  style={{background:'#007bff'}} 
           className="btn btn-lg btn-secondary dropdown-toggle"
           onClick={this.toggleDropdown}
         >
